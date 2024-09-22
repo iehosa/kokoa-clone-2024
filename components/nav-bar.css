@@ -1,0 +1,6 @@
+.nav { position: fixed; bottom: 0; width: 100%; background-color: #efefef; padding: 20px 30px; }
+.nav__list { display: flex; justify-content: space-between; }
+.nav__link { position: relative; color: #2e363e; }
+.nav__notification { position: absolute; left: 18px; bottom: 18px; }
+.nav__new_ellipse { right: -14px; top: -14px; }
+

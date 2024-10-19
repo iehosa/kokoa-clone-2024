@@ -1,0 +1,7 @@
+.badge { display: flex; justify-content: center; align-items: center; border-radius: 50%; font-size: 12px; font-weight: 500; }
+
+.badge_yet { width: 18px; height: 18px; background-color: tomato; color: #fff; }
+
+.badge_warn { margin-left: 5px; width: 16px; height: 16px; background-color: unset; border: 1px solid tomato; color: tomato;}
+
+.chip { position: absolute; width: 5px; height: 5px; background-color: tomato; border-radius: 50%; }

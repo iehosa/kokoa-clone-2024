@@ -31,3 +31,23 @@
 .open-post__heart-count { position: absolute; bottom: 10px; right: 10px; display: flex; align-items: center; background-color: rgba(0,0,0,.5); color: #fff; padding: 5px; border-radius: 20px; font-size: 12px; }
 
 .open-post__heart-count span { margin-left: 3px; }
+
+@keyframes heartBeat {
+    0% {
+        color: #fff;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(1.1);
+    }
+    100% {
+color: #fff;
+transform: none;
+    }
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 2s linear infinite;
+}

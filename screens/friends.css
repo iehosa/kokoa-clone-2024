@@ -6,3 +6,32 @@
 .freinds-screen__channel { margin-top: 25px; border-top: var(--main-border); padding-top: 20px;}
 .friends-screen__channel-header { display: flex; justify-content: space-between; margin-bottom: 30px; color: rgba(0,0,0,.3); }
 
+
+
+/* splash screen */
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        /* display: none; */
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--star-fruit);
+    font-size: 122px;
+    animation: hideSplashScreen 0.5s ease-in-out 0.5s forwards;
+
+}
+

@@ -1,6 +1,4 @@
-.icon-raw { display: flex; }
-
-.icon-raw_fore { justify-content: space-between;  margin-bottom: 40px;}
+.icon-raw { display: flex; justify-content: space-between;  margin-bottom: 40px;}
 .icon-raw_next > .icon-raw__icon { width: 25%;}
 
 .icon-raw_next { }

@@ -3,6 +3,21 @@
 .screen-header__icns_wrap { display: flex; }
 .screen-header__icns_wrap > .icns_item { display: block; margin-left: 20px; padding: 5px; }
 
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icns_wrap .fa-gear:hover {
+    animation: rotateCog 1s cubic-bezier(0.1, 0, 0.9, 0) infinite;
+}
+
+
 /* Find Screen */
 .icns_item_find { position: relative;  }
 .nav__new_ellipse__find { top: 0; right: 0;}
+
